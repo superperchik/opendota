@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assects/css/style.css">
+    <link rel="stylesheet" href="assects/css/teamliststyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>OpenDota</title>
+</head>
+
+<body>
+    <header class="header header_right">
+        <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+        <label class="side-button-1" for="side-checkbox">
+        
+            <div class="hamburger hamburger3">
+                <span class="bar bar1 "></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+            </div>
+        </label>
+
+        <a href="index.html"> <img class="logo_dota" src="assects/images/teamlist/Logo_dota.png" alt="лого доты"></a>
+
+
+
+
+    </header>
+    <div class="wrapper">
+        <input type="checkbox" id="side-checkbox" />
+        <div class="side-panel">
+
+            <label class="side-button-2" for="side-checkbox">+</label>
+            <form class="logo_search left-bar">
+                <input type="search" placeholder="Поиск по сайту...">
+                <button type="submit"></button>
+            </form>
+            <div class="side_item">
+                <a class="item_tittle transition" href="mathes.html">Список матчей
+
+            </a>
+                <img class="slide_item_icon" src="assects/images/teamlist/Arrow_right.png" alt="">
+            </div>
+            <div class="side_item">
+                <a class="item_tittle transition" href="teamslist.html">Список команд </a>
+                <img class="slide_item_icon" src="assects/images/teamlist/Arrow_right.png" alt="">
+            </div>
+            <div class="side_item ">
+                <a class="item_tittle deactive">Сравнение команд
+
+            </a>
+                <img class="slide_item_icon" src="assects/images/teamlist/Arrow_right.png" alt="">
+            </div>
+
+        </div>
+
+
+
+        <div class="container">
+            <h1 class="page_title"><span class="gradient">СПИСОК команд</span></h1>
+            <table>
+                <tr class="row-one">
+                    <td class="table_title col-1">Ранг</td>
+                    <td class="table_title col-2">название команды</td>
+                    <td class="table_title col-3">рейтинг</td>
+                    <td class="table_title col-4">победы</td>
+                    <td class="table_title col-5">проигрыши</td>
+                </tr>
+                <tr>
+                    <td class="rang_team">1st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/Team spirit.png" alt="team spirit">
+                            <div class="team_name">
+                                <p class="team_tittle">Team spirit</p>
+                                <p class="team_date">26 дней назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1150</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">216</p>
+                            <div class="line statistic_line_moved_orange  ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">173</p>
+                            <div class="line statistic_line_moved_orange ">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">2st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/CyberBouch-1.png" alt="CyberBonch-1">
+                            <div class="team_name">
+                                <p class="team_tittle">CyberBonch-1</p>
+                                <p class="team_date">Месяц назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1520</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">267</p>
+                            <div class="line statistic_line_moved ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">3st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/PSGLGD.png" alt="PSG.LGD">
+                            <div class="team_name">
+                                <p class="team_tittle">PSG.LGD</p>
+                                <p class="team_date">23 дня назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1492</p>
+                            <div class="line statistic_line_moved_lime">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1480</p>
+                            <div class="line statistic_line_moved_orange ">
+                                <div class="statistic_line ">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">906</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">4st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/Boom Esports.png" alt="BOOM Esports">
+                            <div class="team_name">
+                                <p class="team_tittle">BOOM Esports</p>
+                                <p class="team_date">2 дня назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1478</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">287</p>
+                            <div class="line statistic_line_moved_orange ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">177</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">5st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/Royal Never Give up.png" alt="Royal Never Give Up">
+                            <div class="team_name">
+                                <p class="team_tittle">Royal Never Give Up</p>
+                                <p class="team_date">2 дня назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1472</p>
+                            <div class="line statistic_line_moved_lime">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">421</p>
+                            <div class="line statistic_line_moved ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">335</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">6st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/Team Aster.png" alt="Team Aster">
+                            <div class="team_name">
+                                <p class="team_tittle">Team Aster</p>
+                                <p class="team_date">22 дня назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1413</p>
+                            <div class="line statistic_line_moved_lime">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">420</p>
+                            <div class="line statistic_line_moved ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">362</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">7st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/Tundra Exports.png" alt="Tundra Esports">
+                            <div class="team_name">
+                                <p class="team_tittle">Tundra Esports</p>
+                                <p class="team_date">3 дня назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1408</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">82</p>
+                            <div class="line statistic_line_moved_orange ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">53</p>
+                            <div class="line statistic_line_moved_orange">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">8st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/DEEP RAVAGE.png" alt="DEEP RAVAGE">
+                            <div class="team_name">
+                                <p class="team_tittle">DEEP RAVAGE</p>
+                                <p class="team_date">18 дней назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1401</p>
+                            <div class="line statistic_line_moved_lime">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">569</p>
+                            <div class="line statistic_line_moved ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">187</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">9st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/Team logo11.png" alt="Virtus.pro">
+                            <div class="team_name">
+                                <p class="team_tittle">Virtus.pro</p>
+                                <p class="team_date">23 дня назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1378</p>
+                            <div class="line statistic_line_moved_lime">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1355</p>
+                            <div class="line statistic_line_moved ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1001</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rang_team">10st</td>
+                    <td>
+                        <div class="team_item">
+                            <img class="team_icon" src="assects/images/teamlist/T1.png" alt="T1">
+                            <div class="team_name">
+                                <p class="team_tittle">T1</p>
+                                <p class="team_date">День назад</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">1376</p>
+                            <div class="line statistic_line_moved">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">116</p>
+                            <div class="line statistic_line_moved ">
+                                <div class="statistic_line orange">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="statistic">
+                            <p class="statistic_number">91</p>
+                            <div class="line statistic_line_moved_orange">
+                                <div class="statistic_line">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="last_row">
+                    <td><img src="assects/images/teamlist/info-icon.png" alt=""></td>
+                    <td class="table_info">
+                        <p><b>Team Elo Rankings</b> </p>
+                        <p>k=32, init=1000</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="button_section">
+                <a href="#" class="buttonload">Загрузить ещё</a>
+            </div>
+
+        </div>
+        <footer>
+
+            <div class="copyright">
+                <p>2022© OpenDota</p>
+            </div>
+            <div class="about_us">
+                <div class="about_us_item">О нас</div>
+                <div class="about_us_item">Политика конфидициальности</div>
+                <div class="about_us_item">Документация API</div>
+            </div>
+
+
+        </footer>
+    </div>
+
+</body>
+
+</html>

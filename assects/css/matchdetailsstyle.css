@@ -1,0 +1,590 @@
+.header_right {
+    justify-content: start;
+    flex-direction: row;
+    position: absolute;
+    z-index: 3;
+    align-items: center;
+}
+
+.logo_dota {
+    margin-left: 10px;
+    width: 190px;
+    height: 40px;
+}
+
+.left-bar {
+    width: 400px;
+    margin-top: 50px;
+}
+
+
+/* Оформление панели */
+
+#side-checkbox {
+    display: none;
+}
+
+.side-panel {
+    background: rgba(48, 16, 112, 0.8);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: -25%;
+    transition: all 0.5s;
+    width: 25%;
+    height: 100vh;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.4);
+    color: #FFF;
+    padding: 40px 20px;
+}
+
+.side_item {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.item_tittle:hover {
+    color: lime;
+    cursor: pointer;
+}
+
+.deactive:hover {
+    color: lightgray;
+    cursor: auto;
+}
+
+.item_tittle {
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    width: 50%;
+    font-size: 16px;
+    align-items: center;
+}
+
+.slide_item_icon {
+    margin-top: 10px;
+    width: auto;
+    height: 25px;
+    margin-left: 50%;
+}
+
+
+/* Оформление кнопки на странице */
+
+.side-button-1 {
+    text-align: center;
+    /* Контейнер для кнопки, чтобы было удобнее ее разместить */
+}
+
+.side-button-1 {
+    display: inline-block;
+}
+
+.side-button-1 .side-b {
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', Тahoma, sans-serif;
+    background: #337AB7;
+    cursor: pointer;
+    border: 2px solid #BFE2FF;
+}
+
+.side-button-1 .side-b:after,
+.side-button-1 .side-b:before {
+    position: absolute;
+    height: 4px;
+    left: 50%;
+    bottom: -6px;
+    content: "";
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+
+/* Переключатели кнопки 1 */
+
+.side-button-1 .side-close {
+    display: none;
+}
+
+#side-checkbox:checked+.side-panel+.side-button-1-wr .side-button-1 .side-open {
+    display: none;
+}
+
+#side-checkbox:checked+.side-panel+.side-button-1-wr .side-button-1 .side-close {
+    display: block;
+}
+
+#side-checkbox:checked+.side-panel {
+    left: 0;
+}
+
+
+/* Оформление кнопки на панеле */
+
+.side-button-2 {
+    font-size: 30px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    color: #BFE2FF;
+    transition: all 280ms ease-in-out;
+}
+
+.side-button-2:hover {
+    transform: rotate(45deg) scale(1.1);
+    color: #FFF;
+}
+
+.page_title {
+    margin-top: 130px;
+    text-transform: uppercase;
+    text-shadow: 0px 8px 16px rgba(16, 0, 37, 0.15);
+    margin-bottom: 50px;
+}
+
+.gradient {
+    background: linear-gradient(268.55deg, #EBC1FF 0%, #E0D8FF 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.row-one {
+    height: 60px;
+    background: #301070;
+    /* border-collapse: collapse; */
+    /* border-bottom: 10px solid #ffffff; */
+}
+
+
+/* HAMBURGER 3 */
+
+.visuallyHidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.hamburger {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.hamburger .bar {
+    padding: 0;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+}
+
+.bar1 {
+    top: 0;
+}
+
+.bar2,
+.bar3 {
+    top: 13.5px;
+}
+
+.bar3 {
+    right: 0;
+}
+
+.bar4 {
+    bottom: 0;
+}
+
+.hamburger3 .bar1 {
+    transform-origin: 5%;
+}
+
+.hamburger3 .bar4 {
+    transform-origin: 5%;
+}
+
+.upper_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper_info_up {
+    display: flex;
+    width: 100%;
+    min-width: 1060px;
+}
+
+.winner {
+    width: 300px;
+}
+
+.winner_logo {
+    margin-top: 63px;
+    border-radius: 10px;
+    background-color: #FFF;
+    display: flex;
+    width: 227px;
+    height: 44px;
+}
+
+.winner_icon {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 24px;
+    width: 24px;
+}
+
+.winner_title {
+    color: #7d3800;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 15px 10px auto;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+}
+
+.score_num {
+    margin-top: 15px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #BBDD00;
+}
+
+.score_statistic {
+    display: flex;
+    flex-direction: column;
+}
+
+.time_tittle {
+    margin: 0 80px 10px 80px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.time_game {
+    margin: 0 55px 10px 55px;
+    font-size: 32px;
+}
+
+.time_date {
+    margin: 0 20px 0 20px;
+    font-size: 16px;
+    color: #E0D8FF;
+}
+
+.dop_statistic {
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+.stitistic_item {
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.statitem_title {
+    text-align: right;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.statitem_title {
+    color: #E0D8FF;
+    margin: 0;
+}
+
+.upper_info_down {
+    display: flex;
+    flex-direction: column;
+}
+
+.warning {
+    display: flex;
+    margin-right: auto;
+    margin-left: 150px;
+}
+
+.warn_icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.warn_messadge {
+    margin-left: 10px;
+    color: #EECD00;
+}
+
+.export_btns {
+    display: flex;
+    margin-left: 350px;
+    margin-right: auto;
+}
+
+.exbtn_1 {
+    border-radius: 5px;
+    background-color: #FFF;
+    display: flex;
+    width: 130px;
+    height: 50px;
+}
+
+.exbtn_2 {
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #FFF;
+    display: flex;
+    width: 213px;
+    height: 50px;
+}
+
+.exbtn_icon {
+    margin-left: 20px;
+    margin-top: 13px;
+    margin-right: 10px;
+    height: 24px;
+    width: 24px;
+}
+
+.exbtn_title {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 15px 20px 15px auto;
+}
+
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: 2px solid #301070;
+    width: 100%;
+}
+
+table:last-child {
+    margin-bottom: 50px;
+}
+
+tr {
+    border-bottom: 2px solid #301070;
+}
+
+.table_info {
+    text-align: left;
+    display: flex;
+    margin: 25px 0 25px 20px;
+}
+
+.team_side {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.team_statistic {
+    width: 190px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #E0D8FF;
+}
+
+.team_status {
+    border-radius: 30px;
+    margin: 10px 20px 20px 20px;
+    height: 30px;
+}
+
+.team_status_text_1 {
+    margin: 0;
+    padding: 5px 15px;
+    color: #FA7000;
+}
+
+.team_status_text_2 {
+    margin: 0;
+    padding: 5px 15px;
+    color: #BBDD00;
+}
+
+.loseteam {
+    background: rgba(250, 112, 0, 0.25);
+}
+
+.winteam {
+    background: rgba(187, 221, 0, 0.25);
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.col_1 {
+    padding-left: 40px;
+    width: 200px;
+}
+
+.col_2 {
+    width: 40px;
+}
+
+.col_3 {
+    width: 30px;
+}
+
+.col_4 {
+    width: 70px;
+}
+
+.col_5 {
+    width: 60px;
+}
+
+.col_6 {
+    width: 100px;
+}
+
+.col_7 {
+    width: 50px;
+}
+
+.col_8 {
+    width: 280px;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.player_logo {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 40px;
+    height: 27px;
+}
+
+.player_name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.player_name_tittle {
+    font-weight: 500;
+    font-size: 16px;
+    color: #BBDD00;
+    margin: 25px 0 0 0;
+}
+
+.player_name_suptittle {
+    margin: 0;
+}
+
+.center_num {
+    vertical-align: middle;
+}
+
+.lime_color {
+    color: #BBDD00;
+}
+
+.orange_color {
+    color: #FA7000;
+}
+
+.things_player {
+    display: flex;
+}
+
+.gold_color {
+    color: #EECD00;
+}
+
+.things_cards {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 190px;
+}
+
+.thing_ulta {
+    width: 90px;
+    display: flex;
+}
+
+.ulta {
+    margin-left: 10px;
+}
+
+.ulta:nth-child(1) {
+    width: 22px;
+    height: 22px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.ulta:nth-child(2) {
+    width: 22px;
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.ulta:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.empty_things {
+    width: 30px;
+    height: 22px;
+}
+
+.empty_things:not(:first-child) {
+    margin-left: 2px;
+}
+
+.empty_things_2 {
+    width: 22px;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.empty_things_2:not(:first-child) {
+    margin-left: 2px;
+}

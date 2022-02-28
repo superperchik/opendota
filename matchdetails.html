@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assects/css/style.css">
+    <link rel="stylesheet" href="assects/css/matchdetailsstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="assects/scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="assects/scripts/custom.js"></script>
+    <title>OpenDota</title>
+</head>
+
+<body>
+    <header class="header header_right">
+        <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+        <label class="side-button-1" for="side-checkbox">
+        
+            <div class="hamburger hamburger3">
+                <span class="bar bar1 "></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+            </div>
+        </label>
+
+        <a href="index.html"> <img class="logo_dota" src="assects/images/teamlist/Logo_dota.png" alt="лого доты"></a>
+
+
+
+
+    </header>
+    <div class="wrapper">
+        <input type="checkbox" id="side-checkbox" />
+        <div class="side-panel">
+
+            <label class="side-button-2" for="side-checkbox">+</label>
+            <form class="logo_search left-bar">
+                <input type="search" placeholder="Поиск по сайту...">
+                <button type="submit"></button>
+            </form>
+            <div class="side_item">
+                <a class="item_tittle transition" href="mathes.html">Список матчей
+
+            </a>
+                <img class="slide_item_icon" src="assects/images/teamlist/Arrow_right.png" alt="">
+            </div>
+            <div class="side_item">
+                <a class="item_tittle transition" href="teamslist.html">Список команд </a>
+                <img class="slide_item_icon" src="assects/images/teamlist/Arrow_right.png" alt="">
+            </div>
+            <div class="side_item ">
+                <a class="item_tittle deactive">Сравнение команд
+
+            </a>
+                <img class="slide_item_icon" src="assects/images/teamlist/Arrow_right.png" alt="">
+            </div>
+
+        </div>
+
+
+
+        <div class="container">
+            <h1 class="page_title"><span class="gradient">Детальная информация матча</span></h1>
+            <section class="upper_info">
+                <div class="upper_info_up">
+                    <div class="winner">
+                        <div class="winner_logo">
+                            <img src="assects/images/mathesdetails/winner-icon.png" alt="winner-icon" class="winner_icon">
+                            <p class="winner_title">Победа: Radiant</p>
+                        </div>
+
+                    </div>
+                    <div class="score">
+                        <p class="score_num">99</p>
+                    </div>
+                    <div class="score_statistic">
+                        <p class="time_tittle">All draft</p>
+                        <p class="time_game">99:59:59</p>
+                        <p class="time_date">Закончился 23 часа назад</p>
+                    </div>
+                    <div class="score">
+                        <p class="score_num">99</p>
+                    </div>
+                    <div class="dop_statistic">
+                        <div class="stitistic_item">
+                            <p class="statitem_title">ID матча</p>
+                            <p class="statitem_subtitle">6434888016</p>
+                        </div>
+                        <div class="stitistic_item">
+                            <p class="statitem_title">Регион</p>
+                            <p class="statitem_subtitle">Singapore</p>
+                        </div>
+                        <div class="stitistic_item">
+                            <p class="statitem_title">Навык</p>
+                            <p class="statitem_subtitle">Unknow</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="upper_info_down">
+                    <div class="warning">
+                        <img src="/assects/images/mathesdetails/warn-icon.png" alt="" class="warn_icon">
+                        <p class="warn_messadge">Запись этого матча не может быть проанализирована, так как недоступна вся информация о матче</p>
+                    </div>
+                    <div class="export_btns">
+                        <div class="exbtn_1">
+                            <img src="assects/images/mathesdetails/Icons-btn1.png" alt="winner-icon" class="exbtn_icon">
+                            <p class="exbtn_title">Анализ</p>
+                        </div>
+                        <div class="exbtn_2">
+                            <img src="assects/images/mathesdetails/Icons-btn2.png" alt="winner-icon" class="exbtn_icon">
+                            <p class="exbtn_title">Загрузить запись</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="12" class="table_info">
+                                <p class="team_side">Radiant</p>
+                                <p class="team_statistic">Статистика команды</p>
+                                <div class="team_status loseteam">
+                                    <p class="team_status_text_1">Проигравшие</p>
+                                </div>
+                                </p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tr class="row-one">
+                        <td class="col_1 up">игрок</td>
+                        <td class="col_2 up">lvl</td>
+                        <td class="col_3 up lime_color">K</td>
+                        <td class="col_3 up orange_color">D</td>
+                        <td class="col_3 up">A</td>
+                        <td class="col_4 up">lh/dn</td>
+                        <td class="col_5 up gold_color">net</td>
+                        <td class="col_6 up">gmp/xpm</td>
+                        <td class="col_7 up">hd </td>
+                        <td class="col_7 up">td</td>
+                        <td class="col_7 up">hh</td>
+                        <td class="col_8 up">предметы/бафы</td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="12" class="table_info">
+                                <p class="team_side">Radiant</p>
+                                <p class="team_statistic">Статистика команды</p>
+                                <div class="team_status winteam">
+                                    <p class="team_status_text_2">Победили</p>
+                                </div>
+                                </p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tr class="row-one">
+                        <td class="col_1 up">игрок</td>
+                        <td class="col_2 up">lvl</td>
+                        <td class="col_3 up lime_color">K</td>
+                        <td class="col_3 up orange_color">D</td>
+                        <td class="col_3 up">A</td>
+                        <td class="col_4 up">lh/dn</td>
+                        <td class="col_5 up gold_color">net</td>
+                        <td class="col_6 up">gmp/xpm</td>
+                        <td class="col_7 up">hd </td>
+                        <td class="col_7 up">td</td>
+                        <td class="col_7 up">hh</td>
+                        <td class="col_8 up">предметы/бафы</td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="player">
+                            <img src="assects/images/mathesdetails/Hero+color.png" alt="player" class="player_logo">
+                            <div class="player_name">
+                                <p class="player_name_tittle">Long user name</p>
+                                <p class="player_name_suptittle">Unknow</p>
+                            </div>
+                        </td>
+                        <td class="center_num">999</td>
+                        <td class="center_num lime_color">99</td>
+                        <td class="center_num orange_color">99</td>
+                        <td class="center_num">99</td>
+                        <td class="center_num">999/99</td>
+                        <td class="center_num gold_color">99.9k</td>
+                        <td class="center_num">9999/9999</td>
+                        <td class="center_num">999.k</td>
+                        <td class="center_num">999</td>
+                        <td class="center_num">999</td>
+                        <td class="things_player">
+                            <div class="things_cards">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things">
+                                <img src="assects/images/mathesdetails/items-2.png" alt="" class="full_things">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                                <img src="assects/images/mathesdetails/Items.png" alt="" class="empty_things_2">
+                            </div>
+                            <div class="thing_ulta">
+                                <img src="assects/images/mathesdetails/Items-ulta-1.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Shard.png" alt="" class="ulta">
+                                <img src="assects/images/mathesdetails/Buffs.png" alt="" class="ulta">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+
+        </div>
+
+        <footer>
+
+            <div class="copyright">
+                <p>2022© OpenDota</p>
+            </div>
+            <div class="about_us">
+                <div class="about_us_item">О нас</div>
+                <div class="about_us_item">Политика конфидициальности</div>
+                <div class="about_us_item">Документация API</div>
+            </div>
+
+
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assects/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="assects/scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="assects/scripts/custom.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="assects/scripts/modal.js"></script>
+    <title>OpenDota</title>
+</head>
+
+<body>
+    <!-- модальное окно -->
+    <!-- Само окно -->
+    <div id="boxes">
+        <div id="dialog" class="window"> Текст модального окна
+            <div class="top"><a href="#" class="link close">Закрыть</a>
+            </div>
+            <div class="content_modal">Текст в модальном окне.</div>
+        </div>
+    </div>
+    <!-- Маска, затемняющая фон -->
+    <div id="mask"></div>
+    <!-- конец окна -->
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__authorization">
+                <a class="authorization_link " href="#dialog" name="modal">
+                    <img class="link_icon" src="assects/images/mainpage/Icon_profile.png" alt="Профиль">
+                    <p class="link_text">Авторизация</p>
+                </a>
+            </div>
+        </header>
+        <div class="container">
+            <div class="logo">
+                <img class="logo_img" src="/assects/images/mainpage/Logo_on_main_page.png" alt="OpenDota">
+            </div>
+            <form class="logo_search">
+                <input type="search" placeholder="Поиск по сайту...">
+                <button type="submit"></button>
+            </form>
+            <div class="list">
+                <div class="list_btn">
+                    <a class="list_link transition" href="mathes.html">
+                        <p class="list-btn_text">Список матчей</p>
+                    </a>
+                </div>
+                <div class="list_btn">
+                    <a class="list_link transition" href="teamslist.html">
+                        <p class="list-btn_text">Список команд</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container advantages">
+            <div class="advantages_card">
+                <img class="advantages_img" src="assects/images/mainpage/Icon_1.png" alt="">
+                <h1 class="advantages_title">открытый источник</h1>
+                <p class="advantages_description">Вся информация и данные для сайта берутся из OpenSource данных.</p>
+            </div>
+            <div class="advantages_card">
+                <img class="advantages_img" src="assects/images/mainpage/Icon_2.png" alt="">
+                <h1 class="advantages_title">подробные данные</h1>
+                <p class="advantages_description">Анализ файлов повторов предоставляет очень подробные данные о матче.</p>
+            </div>
+            <div class="advantages_card">
+                <img class="advantages_img" src="assects/images/mainpage/Icon 3.png" alt="">
+                <h1 class="advantages_title">Бесплатно</h1>
+                <p class="advantages_description">Серверы финансируются спонсорами, а код поддерживают волонтеры, поэтому услуга предоставляется бесплатно.</p>
+            </div>
+        </div>
+        <footer>
+
+            <div class="copyright">
+                <p>2022© OpenDota</p>
+            </div>
+            <div class="about_us">
+                <div class="about_us_item">О нас</div>
+                <div class="about_us_item">Политика конфидициальности</div>
+                <div class="about_us_item">Документация API</div>
+
+            </div>
+
+
+        </footer>
+    </div>
+
+</body>
+
+
+</html>
